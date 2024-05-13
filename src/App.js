@@ -3,9 +3,9 @@ import distance from "./assets/news/2.png";
 import gps from "./assets/locationGPS.png";
 import logo from "./assets/logos/3-Photoroom.png-Photoroom.png";
 import logo2 from "./assets/logos/4-Photoroom.png-Photoroom.png";
-import Modal from "./modal";
-import ModalMap from "./map";
-import ModalThrid from "./qrcode";
+// import Modal from "./modal";
+// import ModalMap from "./map";
+// import ModalThrid from "./qrcode";
 import Modalurl from "./modelUrl";
 import four from "./assets/news/data-center-infrastructure-vector-image-png.png";
 import last from "./assets/news/4.png";
@@ -66,7 +66,7 @@ function App() {
                 <center>
                   <a href={first}>
                   <button
-                    className="btn btn-green uppercase text-center m-auto rounded-lg text-white mt-2"
+                    className="btn btn-green uppercase text-center m-auto rounded-lg text-white mt-5"
                     style={{
                       width: "200px",
                       height: "50px",
@@ -98,12 +98,12 @@ function App() {
                 <div
                   className="font-bold uppercase text-xl mb-2 text-center text-black mt-10"
                   style={{ fontSize: "18px", textShadow: "0px 0px 3px black" }}>
-                  АСФАЛТ-БЕТОН ЗАВОДЛАР СХЕМАСИ
+                 АСФАЛТ-БЕТОН ЗАВОДЛАР МОНИТОРИНГ ТИЗИМИ
                 </div>
                 <center>
                 <a href={second}>
                   <button
-                    className="btn btn-green uppercase text-center m-auto rounded-lg text-white mt-10"
+                    className="btn btn-green uppercase text-center m-auto rounded-lg text-white mt-5"
                     style={{
                       width: "200px",
                       height: "50px",
@@ -226,6 +226,9 @@ function App() {
           <div className="flex justify-center items-center"></div>
         </div>
       </div>
+      <br />
+      <br />
+      <br />
       <br />
       <br />
       <br />

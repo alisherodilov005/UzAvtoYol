@@ -10,27 +10,49 @@
                 <div
                   className="font-bold text-xl mb-2 text-center text-black mt-10"
                   style={{ fontSize: "18px", textShadow: "0px 0px 2px black" }}>
-                  Куч ва воситалар мониторинги
+                  МАЪЛУМОТЛАРНИ ҚАЙТА ИШЛАШ ВА САҚЛАШ МАРКАЗИ
                 </div>
-                <br />
+
                 <center>
-                <a href="https://smpo.uzgps.uz/login.htm">
+                <a href={fourPDF}>
                   <button
-                    className="btn btn-green uppercase text-center m-auto rounded-lg text-white mt-10"
+                    className="btn btn-green uppercase text-center m-auto rounded-lg text-white mt-5"
                     style={{
-                      width: "250px",
+                      width: "200px",
                       height: "50px",
                       backgroundColor: "rgba(0, 164, 146, 10)",
                       fontSize: "20px",
                       fontWeight: "600",
                     }}>
-                   link
+                    link
                   </button>
                   </a>
                 </center>
               </div>
               <img
-                src={gps}
+                src={four}
+                className="mt-auto rounded-xl w-full p-10"
+                alt=""
+              />
+            </div>
+            <div
+              className="max-w-sm overflow-hidden shadow-lg uppercase bg-white m-3 flex flex-col"
+              style={{
+                background: `linear-gradient(120deg,#5298A4, #C6D9DD, #5B8C86)`,
+                borderRadius: "25px",
+                boxShadow: "0px 0px 70px rgba(0, 62, 55, 0.8)",
+                height: "500px",
+              }}>
+              <div className="px-6 py-4 flex-grow">
+                <div
+                  className="font-bold text-xl mb-2 text-center text-black mt-10"
+                  style={{ fontSize: "18px", textShadow: "0px 0px 2px black" }}>
+                  МАХСУС ТАРОЗИЛАР МОНИТОРИНГИ
+                </div>
+                <Modalurl />
+              </div>
+              <img
+                src={last}
                 className="mt-auto rounded-xl w-full p-10"
                 alt=""
               />
